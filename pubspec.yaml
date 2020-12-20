@@ -1,8 +1,7 @@
 name: help_scout
 description: Help scout mobile SDK flutter implementation
 version: 0.0.1
-author:
-homepage:
+homepage: https://github.com/joeeasy/help_scout
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
