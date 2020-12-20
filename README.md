@@ -1,15 +1,24 @@
-# help_scout
+# Beacon
 
-Help scout mobile SDK flutter implementation
+Help scout mobile SDK implementation for Flutter
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+This plugin implements Help Scout official native SDK [Learn more](https://developer.helpscout.com/beacon-2/)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
+### Requirements
+#### For Android
+- `minSDKVersion`: 21(Android 5.0) or later
+- `compiledSDK`: 29(Android 10)
+- Java 8 feature support
+- Beacon needs [Internet support](https://developer.android.com/training/basics/network-ops/connecting)
+[Learn more ](https://developer.helpscout.com/beacon-2/android/)
+
+#### iOS
+Add the following permission to your `info.plist ` file (Optional)
+- `NSPhotoLibraryUsageDescription`
+- `NSCameraUsageDescription`
+- `NSMicrophoneUsageDescription`
+- `NSPhotoLibraryAddUsageDescription`
+![Image](https://github.com/helpscout/HSAttachmentPicker/raw/master/picker_photos_permissions.png)
