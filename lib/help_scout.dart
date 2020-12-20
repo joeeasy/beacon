@@ -22,5 +22,5 @@ class Beacon {
     } on PlatformException catch (e) {
       throw (e.message);
     }
-
+  }
 }

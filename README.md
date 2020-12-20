@@ -21,4 +21,22 @@ Add the following permission to your `info.plist ` file (Optional)
 - `NSCameraUsageDescription`
 - `NSMicrophoneUsageDescription`
 - `NSPhotoLibraryAddUsageDescription`
+
+
+
 ![Image](https://github.com/helpscout/HSAttachmentPicker/raw/master/picker_photos_permissions.png)
+
+### Getting started
+Setup beacon with your `Beacon ID` and user's email address and name (optional)
+```
+    final Beacon _beacon = Beacon(
+                             beaconId: "XXX-XXX-XXX-XXXX-XXX",
+                             email: "example@gmail.com",
+                             name: "John Doe");
+
+```
+ 
+Launch beacon by calling `_beacon.open()` method
+```
+`_beacon.open();`
+```
