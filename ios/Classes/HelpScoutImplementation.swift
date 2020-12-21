@@ -9,9 +9,6 @@ import Foundation
 import Beacon;
 
  public class HelpScoutImplementation {
-    init() {
-    }
-    var settings: HSBeaconSettings = HSBeaconSettings();
 
     func setupBeacon(arguments: Any) -> Void {
         let channelArgs = arguments as? Array<String>
@@ -26,6 +23,6 @@ import Beacon;
         let user=HSBeaconUser();
         user.email = email;
         user.name = name;
-        HSBeacon.login(user);
+        HSBeacon.identify(user);
     }
 }

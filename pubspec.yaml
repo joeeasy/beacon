@@ -1,6 +1,6 @@
 name: help_scout
 description: Help scout mobile SDK flutter implementation
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/joeeasy/beacon
 
 environment:

@@ -16,6 +16,8 @@ This plugin implements Help Scout official native SDK [Learn more](https://devel
 [Learn more ](https://developer.helpscout.com/beacon-2/android/)
 
 #### iOS
+
+*Note:* For this plugin to work, set your `minimum deployment target` to `iOS 11.0`
 Add the following permission to your `info.plist ` file (Optional)
 - `NSPhotoLibraryUsageDescription`
 - `NSCameraUsageDescription`
