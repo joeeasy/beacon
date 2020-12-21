@@ -15,7 +15,7 @@ class HelpScoutImplementation {
                     .build();
             identifyUser(email = channelArgs[1], name = channelArgs[2])
         } catch (e: UnknownError) {
-            throw(e.);
+            throw(e);
         }
     }
 
