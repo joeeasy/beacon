@@ -1,11 +1,9 @@
 PODS:
-  - Beacon (1.0.5):
-    - HSAttachmentPicker (~> 1.0)
+  - Beacon (2.1.2)
   - Flutter (1.0.0)
   - help_scout (0.0.1):
     - Beacon
     - Flutter
-  - HSAttachmentPicker (1.0.11)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -14,7 +12,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Beacon
-    - HSAttachmentPicker
 
 EXTERNAL SOURCES:
   Flutter:
@@ -23,10 +20,9 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/help_scout/ios"
 
 SPEC CHECKSUMS:
-  Beacon: 21170249bffc128b0094abb62bf86d6d7faf38d8
+  Beacon: ae5e468220ab804800d8e39ca6c7860ff70f1bd5
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  help_scout: 268bd05546739aceeb326f67f9186d38601d2294
-  HSAttachmentPicker: 8904e3fb4af16959b3eb6d93824c8448ede1c03d
+  help_scout: a8ee8c468704e71b6ba512af0676f5ba8111b804
 
 PODFILE CHECKSUM: 34c3471073a7fbe5276eff23dc198c1ac11026b2
 
